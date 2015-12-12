@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:15
+<?php /* Smarty version 2.6.26, created on 2015-12-12 20:25:26
          compiled from menu.htm */ ?>
 <div id="menu">
  <ul class="top">
@@ -64,9 +64,7 @@ Cat"></i><em><?php echo $this->_tpl_vars['menu']['lang_category']; ?>
  <ul class="bot">
   <li<?php if ($this->_tpl_vars['cur'] == 'backup'): ?> class="cur"<?php endif; ?>><a href="backup.php"><i class="backup"></i><em><?php echo $this->_tpl_vars['lang']['backup']; ?>
 </em></a></li>
-  <li<?php if ($this->_tpl_vars['cur'] == 'mobile'): ?> class="cur"<?php endif; ?>><a href="mobile.php"><i class="mobile"></i><em><?php echo $this->_tpl_vars['lang']['mobile']; ?>
-</em></a></li>
-  <li<?php if ($this->_tpl_vars['cur'] == 'theme'): ?> class="cur"<?php endif; ?>><a href="theme.php"><i class="theme"></i><em><?php echo $this->_tpl_vars['lang']['theme']; ?>
+    <li<?php if ($this->_tpl_vars['cur'] == 'theme'): ?> class="cur"<?php endif; ?>><a href="theme.php"><i class="theme"></i><em><?php echo $this->_tpl_vars['lang']['theme']; ?>
 <?php if ($this->_tpl_vars['unum']['theme']): ?><span class="unum"><span><?php echo $this->_tpl_vars['unum']['theme']; ?>
 </span></span><?php endif; ?></em></a></li>
   <li<?php if ($this->_tpl_vars['cur'] == 'manager'): ?> class="cur"<?php endif; ?>><a href="manager.php"><i class="manager"></i><em><?php echo $this->_tpl_vars['lang']['manager']; ?>

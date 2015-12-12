@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{$lang.home}{if $ur_here} - {$ur_here} {/if}</title>
+<meta name="Copyright" content="Douco Design." />
+<link href="templates/public.css" rel="stylesheet" type="text/css">
+{include file="javascript.htm"}
+</head>
+<body>
+<div id="dcWrap">
+ {include file="header.htm"}
+ <div id="dcLeft">{include file="menu.htm"}</div>
+ <div id="dcMain">
+   {include file="ur_here.htm"}
+   <div class="mainBox" style="{$workspace.height}">
+   <!-- {if $rec eq 'default'} 插件列表 -->
+   <h3>{$ur_here}</h3>
+   <ul class="tab">
+    <li><a href="plugin.php" class="selected">{$lang.plugin_list}</a></li>
+    <li><a href="plugin.php?rec=install">{$lang.plugin_install}{if $unum.theme}<span class="unum"><span>{$unum.theme}</span></span>{/if}</a></li>
+   </ul>
+   <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+    <tr>
+     <th width="100" align="left">{$lang.plugin_name}</th>
+     <th align="left">{$lang.plugin_description}</th>
+     <th width="60" align="center">{$lang.plugin_ver}</th>
+     <th width="80" align="center">{$lang.handler}</th>
+    </tr>
+    <!-- {foreach from=$plugin_list item=plugin} -->
+    <tr {if $plugin.if_read eq '0'}class="unread"{/if}>
+     <td valign="top">{$plugin.name}</td>
+     <td valign="top">{$plugin.description}</td>
+     <td align="center" valign="top">{$plugin.ver}</td>
+     <td align="center" valign="top">
+      <!-- {if $plugin.enabled} -->
+      <a href="plugin.php?rec=disable&unique_id={$plugin.unique_id}">{$lang.plugin_disable}</a> | <a href="plugin.php?rec=edit&unique_id={$plugin.unique_id}">{$lang.edit}</a>
+      <!-- {else} -->
+      <a href="plugin.php?rec=enable&unique_id={$plugin.unique_id}">{$lang.plugin_enable_btn}</a> | <a href="plugin.php?rec=del&unique_id={$plugin.unique_id}">{$lang.del}</a>
+      <!-- {/if} -->
+     </td>
+    </tr>
+    <!-- {/foreach} -->
+   </table>
+   <!-- {/if} -->
+   <!-- {if $rec eq 'install'} 安装插件 -->
+   <h3>{$ur_here}</h3>
+   <ul class="tab">
+    <li><a href="plugin.php">{$lang.plugin_list}</a></li>
+    <li><a href="plugin.php?rec=install" class="selected">{$lang.plugin_install}</a></li>
+   </ul>
+   <div class="selector"></div>
+   <div class="cloudList">
+   </div>
+   <script type="text/javascript">get_cloud_list('plugin', '{$get}', '{$localsite}')</script>
+   <div class="pager"></div>
+   <!-- {/if} -->
+   <!-- {if $rec eq 'enable' || $rec eq 'edit'} 插件添加或编辑 -->
+   <h3><a href="{$action_link.href}" class="actionBtn">{$action_link.text}</a>{$ur_here}</h3>
+   <form action="plugin.php?rec={$form_action}" method="post">
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+      <td width="90" align="right">{$lang.plugin_name}</td>
+      <td>
+       <input type="text" name="name" value="{$plugin.name}" size="50" class="inpMain" />
+      </td>
+     </tr>
+     <tr>
+      <td width="90" align="right">{$lang.plugin_description}</td>
+      <td>
+       <textarea name="description" cols="70" rows="5" class="textArea" />{$plugin.description}</textarea>
+      </td>
+     </tr>
+     <!-- {foreach from=$plugin.config item=config} -->
+     <tr>
+      <td align="right">{$config.name}</td>
+      <td>
+       <!-- {if $config.type eq 'select'} -->
+       <select name="config[{$config.field}]">
+        <!-- {foreach from=$config.option key=name item=value} -->
+        <option value="{$value}"{if $config.value eq $value} selected{/if}>{$name}</option>
+        <!-- {/foreach} -->
+       </select>
+       <!-- {elseif $config.type eq 'textarea'} -->
+       <textarea name="config[{$config.field}]" cols="70" rows="5" class="textArea" />{$config.value}</textarea>
+       <!-- {else} -->
+       <input type="text" name="config[{$config.field}]" value="{$config.value}" size="50" class="inpMain" />
+       <!-- {/if} -->
+       <!-- {if $config.desc} --> <p class="cue">{$config.desc}</p><!-- {/if} -->
+      </td>
+     </tr>
+     <!-- {/foreach} -->
+     <tr>
+      <td></td>
+      <td>
+       <input type="hidden" name="token" value="{$token}" />
+       <input type="hidden" name="unique_id" value="{$plugin.unique_id}">
+       <input type="hidden" name="plugin_group" value="{$plugin.plugin_group}">
+       <input name="submit" class="btn" type="submit" value="{$lang.btn_submit}" />
+      </td>
+     </tr>
+    </table>
+   </form>
+   <!-- {/if} --> 
+   </div>
+ </div>
+ {include file="footer.htm"}
+ </div>
+</body>
+</html>

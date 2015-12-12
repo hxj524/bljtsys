@@ -1,8 +1,8 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:15
+<?php /* Smarty version 2.6.26, created on 2015-12-12 14:24:57
          compiled from header.htm */ ?>
 <div id="dcHead">
  <div id="head">
-  <div class="logo"><a href="index.php"><img src="images/dclogo.gif" alt="logo"></a></div>
+  <div class="logo"><a href="index.php"><img src="images/dclogo.png" alt="logo"></a></div>
   <div class="nav">
    <ul>
     <li class="M"><a href="JavaScript:void(0);" class="topAdd"><?php echo $this->_tpl_vars['lang']['top_add']; ?>
