@@ -13,7 +13,8 @@
 </head>
 <body>
 <div id="wrapper"> {include file="inc/header.tpl"}
- <div id="index" class="wrap mb"> {include file="inc/slide_show.tpl"}
+{include file="inc/slide_show.tpl"}
+ <div id="index" class="wrap mb"> 
   <div id="indexLeft"> 
    <!-- {if $open.product} -->
    {include file="inc/recommend_product.tpl"}

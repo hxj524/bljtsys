@@ -211,18 +211,16 @@ label {
 }
 /* -- mainNav -- */
 #mainNav {
- margin-bottom: 10px;
  height: 35px;
  font-size: 14px;
+ background-color: #1A8CC4;
 }
 /* LEVEL ONE */
 #mainNav ul.wrap {
- background: #E0E0E0 url(images/main_nav_right.gif) no-repeat right top;
  position: relative;
  z-index: 1000;
 }
 #mainNav ul li {
- background-color: #E0E0E0;
  float: left;
  zoom: 1;
 }
@@ -231,10 +229,10 @@ label {
  width: 101px;
  padding: 0 12px;
  text-align: center;
- border-right: 1px solid #F4F4F4;
+ border-left: 1px solid #167DAF;
  height: 35px;
  line-height: 35px;
- color: #000000;
+ color: #FFF;
  text-decoration: none;
 }
 #mainNav ul li.hover, #mainNav ul li.cur {
@@ -245,19 +243,13 @@ label {
  color: #FFF;
 }
 #mainNav ul li .first {
- background: #E0E0E0 url(images/main_nav_left.gif) no-repeat left top;
  width: 74px;
 }
-#mainNav ul li.hover .first, #mainNav ul li.cur .first {
- background: #19B4EA url(images/main_nav_left.gif) no-repeat left bottom;
-}
+
 #mainNav ul li .last {
- background: #E0E0E0 url(images/main_nav_right.gif) no-repeat right top;
  margin-right: -1px;
 }
-#mainNav ul li.hover .last, #mainNav ul li.cur .last {
- background: #19B4EA url(images/main_nav_right.gif) no-repeat right bottom;
-}
+
 /* LEVEL TWO */
 #mainNav ul ul {
  min-width: 125px;
@@ -271,12 +263,13 @@ label {
 }
 #mainNav ul ul li {
  font-weight: normal;
- background: #E0E0E0;
+ background: #FFF;
+ border-bottom: 1px solid #EEE;
  float: none;
 }
 #mainNav ul li.hover ul li a {
  color: #24313C;
- border-right: none;
+ border-left: none;
  display: inline-block;
 }
 #mainNav ul li.hover ul li.hover a {
