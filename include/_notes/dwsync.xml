@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="action.class.php" server="101.226.179.80//data/www/web/" local="130899950143308896" remote="130944025120000000" />
+<file name="captcha.class.php" server="101.226.179.80//data/www/web/" local="130893949820572456" remote="130944025120000000" />
+<file name="check.class.php" server="101.226.179.80//data/www/web/" local="130934528053692943" remote="130944025120000000" />
+<file name="common.class.php" server="101.226.179.80//data/www/web/" local="130934543222021516" remote="130944025130000000" />
+<file name="firewall.class.php" server="101.226.179.80//data/www/web/" local="130893949820722456" remote="130944025130000000" />
+<file name="init.php" server="101.226.179.80//data/www/web/" local="130894415186106484" remote="130944025150000000" />
+<file name="mail.class.php" server="101.226.179.80//data/www/web/" local="130753717080000000" remote="130944025190000000" />
+<file name="mysql.class.php" server="101.226.179.80//data/www/web/" local="130934540509705822" remote="130944025190000000" />
+<file name="route.php" server="101.226.179.80//data/www/web/" local="130893949820922457" remote="130944025200000000" />
+<file name="search.inc.php" server="101.226.179.80//data/www/web/" local="130893949667622816" remote="130944025200000000" />
+<file name="sitemap.class.php" server="101.226.179.80//data/www/web/" local="130893949820972457" remote="130944025210000000" />
+<file name="smtp.class.php" server="101.226.179.80//data/www/web/" local="130753717080000000" remote="130944025600000000" />
+<file name="upload.class.php" server="101.226.179.80//data/www/web/" local="130913836875376387" remote="130944025610000000" />
+<file name="action.class.php" server="678995.ichengyun.net" local="130899950143308896" remote="130944631200000000" />
+<file name="captcha.class.php" server="678995.ichengyun.net" local="130893949820572456" remote="130944631200000000" />
+<file name="check.class.php" server="678995.ichengyun.net" local="130934528053692943" remote="130944631200000000" />
+<file name="common.class.php" server="678995.ichengyun.net" local="130934543222021516" remote="130944631200000000" />
+<file name="firewall.class.php" server="678995.ichengyun.net" local="130893949820722456" remote="130944631200000000" />
+<file name="init.php" server="678995.ichengyun.net" local="130894415186106484" remote="130944631200000000" />
+<file name="mail.class.php" server="678995.ichengyun.net" local="130753717080000000" remote="130944631200000000" />
+<file name="mysql.class.php" server="678995.ichengyun.net" local="130934540509705822" remote="130944631200000000" />
+<file name="route.php" server="678995.ichengyun.net" local="130893949820922457" remote="130944631200000000" />
+<file name="search.inc.php" server="678995.ichengyun.net" local="130893949667622816" remote="130944631200000000" />
+<file name="sitemap.class.php" server="678995.ichengyun.net" local="130893949820972457" remote="130944631200000000" />
+<file name="smtp.class.php" server="678995.ichengyun.net" local="130753717080000000" remote="130944631800000000" />
+<file name="upload.class.php" server="678995.ichengyun.net" local="130913836875376387" remote="130944632400000000" />
+<file name="action.class.php" server="678995.ichengyun.net/public_html/" local="130899950143308896" remote="130944669600000000" />
+<file name="captcha.class.php" server="678995.ichengyun.net/public_html/" local="130893949820572456" remote="130944669600000000" />
+<file name="check.class.php" server="678995.ichengyun.net/public_html/" local="130934528053692943" remote="130944670200000000" />
+<file name="common.class.php" server="678995.ichengyun.net/public_html/" local="130934543222021516" remote="130944670200000000" />
+<file name="firewall.class.php" server="678995.ichengyun.net/public_html/" local="130893949820722456" remote="130944670200000000" />
+<file name="init.php" server="678995.ichengyun.net/public_html/" local="130894415186106484" remote="130944670200000000" />
+<file name="mail.class.php" server="678995.ichengyun.net/public_html/" local="130753717080000000" remote="130944670200000000" />
+<file name="mysql.class.php" server="678995.ichengyun.net/public_html/" local="130934540509705822" remote="130944670200000000" />
+<file name="route.php" server="678995.ichengyun.net/public_html/" local="130893949820922457" remote="130944670200000000" />
+<file name="search.inc.php" server="678995.ichengyun.net/public_html/" local="130893949667622816" remote="130944670200000000" />
+<file name="sitemap.class.php" server="678995.ichengyun.net/public_html/" local="130893949820972457" remote="130944670200000000" />
+<file name="smtp.class.php" server="678995.ichengyun.net/public_html/" local="130753717080000000" remote="130944670800000000" />
+<file name="upload.class.php" server="678995.ichengyun.net/public_html/" local="130913836875376387" remote="130944670800000000" />
+</dwsync>

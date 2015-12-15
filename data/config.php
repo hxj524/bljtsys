@@ -13,16 +13,16 @@
  */
 
 // database host
-$dbhost   = "localhost";
+$dbhost   = "101.226.179.80";
 
 // database name
 $dbname   = "bljt";
 
 // database username
-$dbuser   = "root";
+$dbuser   = "bljt";
 
 // database password
-$dbpass   = "";
+$dbpass   = "qwe123,./";
 
 // table prefix
 $prefix   = "bljt_";
