@@ -501,7 +501,7 @@ label {
  color: #7A7F81;
  font-weight: bold;
  font-size: 14px;
- border-bottom: 1px solid #CBD1D3;
+ border-bottom: 2px solid #1A8CC4;
 }
 .incBox h3 a {
  color: #7A7F81;
@@ -747,7 +747,7 @@ color:transparent!important
  margin-right: 0;
 }
 .recommendProduct .img {
- border: 1px solid #E4E4E4;
+ border: 1px solid #1A8CC4;
  margin-bottom: 8px;
 }
 /* -- about -- */

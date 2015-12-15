@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:20
+<?php /* Smarty version 2.6.26, created on 2015-12-15 21:20:46
          compiled from inc/recommend_product.tpl */ ?>
 <?php if ($this->_tpl_vars['recommend_product']): ?>
 <div class="incBox">
