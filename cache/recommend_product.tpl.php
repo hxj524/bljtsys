@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-15 21:20:46
+<?php /* Smarty version 2.6.26, created on 2015-12-16 20:36:59
          compiled from inc/recommend_product.tpl */ ?>
 <?php if ($this->_tpl_vars['recommend_product']): ?>
 <div class="incBox">
@@ -20,9 +20,7 @@ if ($this->_foreach['recommend_product']['total'] > 0):
   <p class="name"><a href="<?php echo $this->_tpl_vars['product']['url']; ?>
 "><?php echo $this->_tpl_vars['product']['name']; ?>
 </a></p>
-  <p class="price"><?php echo $this->_tpl_vars['product']['price']; ?>
-</p>
-  </li>
+    </li>
   <?php endforeach; endif; unset($_from); ?>
  </ul>
 </div>

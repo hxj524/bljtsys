@@ -13,7 +13,7 @@
  */
 
 // 公共语言项
-$_LANG['home'] = 'DouPHP 管理中心';
+$_LANG['home'] = '宁波北仑甬仑电子管理中心';
 $_LANG['yes'] = '是';
 $_LANG['no'] = '否';
 $_LANG['open'] = '开启';
