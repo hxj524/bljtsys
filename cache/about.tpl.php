@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:20
+<?php /* Smarty version 2.6.26, created on 2015-12-17 21:15:40
          compiled from inc/about.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'inc/about.tpl', 7, false),)), $this); ?>
@@ -6,7 +6,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 
  <h3><?php echo $this->_tpl_vars['index']['about_name']; ?>
 </h3>
  <div class="about">
-  <p><img src="http://www.bljt.com/theme/default/images/img_company.jpg" /></p>
+  <p><img src="http://www.bljt.com/theme/theme1/images/img_company.jpg" /></p>
   <dl>
    <dt><?php echo $this->_tpl_vars['site']['site_name']; ?>
 </dt>

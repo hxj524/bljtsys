@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:20
+<?php /* Smarty version 2.6.26, created on 2015-12-17 21:15:40
          compiled from inc/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'inc/header.tpl', 38, false),)), $this); ?>
@@ -57,7 +57,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'i
  <div class="wrap clearfix">
   <ul class="logo">
    <a href="<?php echo $this->_tpl_vars['site']['root_url']; ?>
-"><img src="http://www.bljt.com/theme/default/images/<?php echo $this->_tpl_vars['site']['site_logo']; ?>
+"><img src="http://www.bljt.com/theme/theme1/images/<?php echo $this->_tpl_vars['site']['site_logo']; ?>
 " alt="<?php echo $this->_tpl_vars['site']['site_name']; ?>
 " title="<?php echo $this->_tpl_vars['site']['site_name']; ?>
 " /></a>

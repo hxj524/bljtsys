@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:20
+<?php /* Smarty version 2.6.26, created on 2015-12-17 21:15:40
          compiled from inc/recommend_article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'inc/recommend_article.tpl', 6, false),)), $this); ?>
