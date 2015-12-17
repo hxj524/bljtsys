@@ -170,6 +170,8 @@ class Upload {
         
         if (function_exists("imagecreatetruecolor")) {
             $new_thumb = imagecreatetruecolor($width, $height);
+            $white = imagecolorallocate($new_thumb,255,255,255);
+             imagefill($new_thumb,0,0,$white);//填充背景
             ImageCopyResampled($new_thumb, $img, 0, 0, 0, 0, $width, $height, $img_info["width"], $img_info["height"]);
         } else {
             $new_thumb = imagecreate($width, $height);
