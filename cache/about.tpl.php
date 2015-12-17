@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-17 21:15:40
+<?php /* Smarty version 2.6.26, created on 2015-12-17 22:25:32
          compiled from inc/about.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'inc/about.tpl', 7, false),)), $this); ?>
@@ -15,8 +15,6 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 
   </dl>
   <div class="clear"></div>
   <a href="<?php echo $this->_tpl_vars['index']['about_link']; ?>
-" class="aboutBtn"><?php echo $this->_tpl_vars['lang']['about_link']; ?>
-<?php echo $this->_tpl_vars['index']['about_name']; ?>
-</a>
+" class="aboutBtn">详细介绍</a>
  </div>
 </div>

@@ -503,12 +503,16 @@ label {
  font-size: 14px;
  border-bottom: 2px solid #1A8CC4;
 }
+#indexLeft .incBox h3{
+    border-bottom-color: #1ca1df;
+}
 #indexRight .incBox h3{
  display: inline-block;
  border-radius: 5px 5px 0 0;
  background: #1ca1df;
  color: #fff;
  padding: 0 20px;
+ border: none;
 }
 .incBox h3 a {
  color: #7A7F81;
@@ -757,8 +761,9 @@ color:transparent!important
  margin-right: 0;
 }
 .recommendProduct .img {
- border: 1px solid #1A8CC4;
+ border: 1px solid #1ca1df;
  margin-bottom: 8px;
+ background-color: #fff;
 }
 /* -- about -- */
 .about {
@@ -789,10 +794,16 @@ color:transparent!important
 }
 .about .aboutBtn {
  display: block;
- text-decoration: underline;
- color: #CC0000;
+ text-decoration: none;
+ color: #fff;
  font-weight: bold;
  margin-top: 12px;
+ background-color: #1ca1df;
+ height: 30px;
+ width: 100px;
+ line-height: 30px;
+ text-align: center;
+ border-bottom: 2px solid #feff00;
 }
 /* -- recommendArticle -- */
 .recommendArticle{
@@ -813,18 +824,23 @@ color:transparent!important
 }
 /* -- contact -- */
 .contact {
- border: 1px solid #CBD1D3;
- background-color: #EFEFEF;
- padding: 15px;
+    
 }
 .contact h3 {
- border-bottom: 1px solid #CBD1D3;
  padding-bottom: 10px;
  font-size: 14px;
- color: #7A7F81;
+ color: #fff;
+ background-color: #1ca1df;
+ padding: 0 20px;
+ border-radius: 5px 5px 0 0;
+ display: inline-block;
+ height: 35px;
+ line-height: 35px;
 }
 .contact .box {
- padding:15px 0 0 3px;
+ padding: 10px;
+ border: 1px solid #eee;
+ background-color: #fff;
 }
 .contact dl {
  margin-bottom: 8px;
@@ -1713,12 +1729,15 @@ color:transparent!important
 #footer {
  border-top: 1px solid #D8D8D8;
  background-color: #EBEBEB;
- padding: 35px 0;
+ padding: 20px 0;
  line-height: 25px;
  color: #999999;
 }
 #footer a {
  color: #999999;
+}
+#footer .footNav{
+    float: right;
 }
 #footer .footNav i {
  margin: 0 12px;

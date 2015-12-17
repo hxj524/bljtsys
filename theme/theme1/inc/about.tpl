@@ -8,6 +8,6 @@
    <dd>{$index.about_content|truncate:180:"..."}</dd>
   </dl>
   <div class="clear"></div>
-  <a href="{$index.about_link}" class="aboutBtn">{$lang.about_link}{$index.about_name}</a>
+  <a href="{$index.about_link}" class="aboutBtn">详细介绍</a>
  </div>
 </div>
