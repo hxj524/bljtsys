@@ -1729,7 +1729,8 @@ color:transparent!important
 }
 #onlineService .onlineBox .foot {
  background: url(images/online_service.png) no-repeat -65px -12px;
- height:15px;
+ height: 12px;
+ border-radius: 0 0 0 6px;
 }
 #onlineService .onlineBox .box {
  width: 130px;
