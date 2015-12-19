@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
 <file name="about.tpl" server="678995.ichengyun.net/public_html/" local="130948360800000000" remote="130948360800000000" />
 <file name="article_tree.tpl" server="678995.ichengyun.net/public_html/" local="130948360800000000" remote="130948360800000000" />
 <file name="contact.tpl" server="678995.ichengyun.net/public_html/" local="130948360800000000" remote="130948360800000000" />
@@ -14,4 +15,48 @@
 <file name="recommend_product.tpl" server="678995.ichengyun.net/public_html/" local="130949130431247707" remote="130948360800000000" />
 <file name="slide_show.tpl" server="678995.ichengyun.net/public_html/" local="130948360800000000" remote="130948360800000000" />
 <file name="ur_here.tpl" server="678995.ichengyun.net/public_html/" local="130948360800000000" remote="130948360800000000" />
+=======
+<file name="about.tpl" server="101.226.179.80//data/www/web/" local="130477259424198011" remote="130944026210000000" />
+<file name="article_tree.tpl" server="101.226.179.80//data/www/web/" local="130888519427636379" remote="130944026210000000" />
+<file name="contact.tpl" server="101.226.179.80//data/www/web/" local="130557395598853773" remote="130944026210000000" />
+<file name="footer.tpl" server="101.226.179.80//data/www/web/" local="130580100193174434" remote="130944026210000000" />
+<file name="header.tpl" server="101.226.179.80//data/www/web/" local="130879152970613401" remote="130944026220000000" />
+<file name="link.tpl" server="101.226.179.80//data/www/web/" local="130943753366773839" remote="130944026220000000" />
+<file name="online_service.tpl" server="101.226.179.80//data/www/web/" local="130811780726329107" remote="130944026220000000" />
+<file name="pager.tpl" server="101.226.179.80//data/www/web/" local="130249937879062500" remote="130944026220000000" />
+<file name="page_tree.tpl" server="101.226.179.80//data/www/web/" local="130888519019482528" remote="130944026230000000" />
+<file name="product_tree.tpl" server="101.226.179.80//data/www/web/" local="130888519221555658" remote="130944026240000000" />
+<file name="recommend_article.tpl" server="101.226.179.80//data/www/web/" local="130815895725333071" remote="130944026240000000" />
+<file name="recommend_product.tpl" server="101.226.179.80//data/www/web/" local="130811784726637912" remote="130944026250000000" />
+<file name="slide_show.tpl" server="101.226.179.80//data/www/web/" local="130827408518250749" remote="130944026260000000" />
+<file name="ur_here.tpl" server="101.226.179.80//data/www/web/" local="130540597923289591" remote="130944026260000000" />
+<file name="about.tpl" server="678995.ichengyun.net" local="130477259424198011" remote="130944633600000000" />
+<file name="article_tree.tpl" server="678995.ichengyun.net" local="130888519427636379" remote="130944633600000000" />
+<file name="contact.tpl" server="678995.ichengyun.net" local="130557395598853773" remote="130944633600000000" />
+<file name="footer.tpl" server="678995.ichengyun.net" local="130580100193174434" remote="130944633600000000" />
+<file name="header.tpl" server="678995.ichengyun.net" local="130879152970613401" remote="130944633600000000" />
+<file name="link.tpl" server="678995.ichengyun.net" local="130943753366773839" remote="130944633600000000" />
+<file name="online_service.tpl" server="678995.ichengyun.net" local="130811780726329107" remote="130944633600000000" />
+<file name="pager.tpl" server="678995.ichengyun.net" local="130249937879062500" remote="130944633600000000" />
+<file name="page_tree.tpl" server="678995.ichengyun.net" local="130888519019482528" remote="130944633600000000" />
+<file name="product_tree.tpl" server="678995.ichengyun.net" local="130888519221555658" remote="130944633600000000" />
+<file name="recommend_article.tpl" server="678995.ichengyun.net" local="130815895725333071" remote="130944633600000000" />
+<file name="recommend_product.tpl" server="678995.ichengyun.net" local="130811784726637912" remote="130944633600000000" />
+<file name="slide_show.tpl" server="678995.ichengyun.net" local="130827408518250749" remote="130944633600000000" />
+<file name="ur_here.tpl" server="678995.ichengyun.net" local="130540597923289591" remote="130944633600000000" />
+<file name="about.tpl" server="678995.ichengyun.net/public_html/" local="130477259424198011" remote="130944673800000000" />
+<file name="article_tree.tpl" server="678995.ichengyun.net/public_html/" local="130888519427636379" remote="130944673800000000" />
+<file name="contact.tpl" server="678995.ichengyun.net/public_html/" local="130557395598853773" remote="130944673800000000" />
+<file name="footer.tpl" server="678995.ichengyun.net/public_html/" local="130580100193174434" remote="130944673800000000" />
+<file name="header.tpl" server="678995.ichengyun.net/public_html/" local="130879152970613401" remote="130944673800000000" />
+<file name="link.tpl" server="678995.ichengyun.net/public_html/" local="130943753366773839" remote="130944673800000000" />
+<file name="online_service.tpl" server="678995.ichengyun.net/public_html/" local="130811780726329107" remote="130944673800000000" />
+<file name="pager.tpl" server="678995.ichengyun.net/public_html/" local="130249937879062500" remote="130944673800000000" />
+<file name="page_tree.tpl" server="678995.ichengyun.net/public_html/" local="130888519019482528" remote="130944673800000000" />
+<file name="product_tree.tpl" server="678995.ichengyun.net/public_html/" local="130888519221555658" remote="130944673800000000" />
+<file name="recommend_article.tpl" server="678995.ichengyun.net/public_html/" local="130815895725333071" remote="130944673800000000" />
+<file name="recommend_product.tpl" server="678995.ichengyun.net/public_html/" local="130811784726637912" remote="130944673800000000" />
+<file name="slide_show.tpl" server="678995.ichengyun.net/public_html/" local="130827408518250749" remote="130944673800000000" />
+<file name="ur_here.tpl" server="678995.ichengyun.net/public_html/" local="130540597923289591" remote="130944673800000000" />
+>>>>>>> 38970d40a1950c45cd80f07bb756419c2dd43a41
 </dwsync>

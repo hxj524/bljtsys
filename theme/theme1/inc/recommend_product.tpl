@@ -7,7 +7,11 @@
   <li<!-- {if $smarty.foreach.recommend_product.iteration % 4 eq 0} --> class="clearBorder"<!-- {/if} -->>
   <p class="img"><a href="{$product.url}"><img src="{$product.thumb}" width="{$site.thumb_width}" height="{$site.thumb_height}" /></a></p>
   <p class="name"><a href="{$product.url}">{$product.name}</a></p>
+<<<<<<< HEAD
   {* <p class="price">{$product.price}</p> *}
+=======
+  <p class="price">{$product.price}</p>
+>>>>>>> 38970d40a1950c45cd80f07bb756419c2dd43a41
   </li>
   <!-- {/foreach} -->
  </ul>

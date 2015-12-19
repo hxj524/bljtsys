@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:15
+<?php /* Smarty version 2.6.26, created on 2015-12-17 21:15:33
          compiled from footer.htm */ ?>
 <div class="clear"></div>
 <div id="dcFooter">
