@@ -70,22 +70,8 @@ class DbMysql {
         }
     }
     
-    //数据库断线重连方法
-    function reconnect(){
-        if (mysql_ping($this->dou_link) === FALSE)
-		{
-            mysql_close($this->dou_link);
-			$this->dou_link = FALSE;
-		}
-        
-        if(!$this->dou_link){
-            $this->connect();
-        }
-    }
-    
     // 数据库执行语句，可执行查询添加修改删除等任何sql语句
     function query($sql) {
-        $this->reconnect();
         $this->sql = $sql;
         $query = mysql_query($this->sql, $this->dou_link);
         return $query;

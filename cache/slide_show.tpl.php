@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-12-17 22:25:32
+<?php /* Smarty version 2.6.26, created on 2015-12-09 19:18:20
          compiled from inc/slide_show.tpl */ ?>
 <div class="slideShow">
  <ul class="slides">
