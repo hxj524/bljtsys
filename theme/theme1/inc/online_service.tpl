@@ -1,22 +1,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- {if $site.qq} -->
 <div id="onlineService">
- <div class="onlineIcon">{$lang.online}</div>
- <div id="pop">
-  <ul class="onlineQQ">
-  <!-- {foreach from=$site.qq item=qq} -->
-  <!-- {if is_array($qq)} -->
-  <a href="http://wpa.qq.com/msgrd?v=3&uin={$qq.number}&site=qq&menu=yes" target="_blank">{$qq.nickname}</a>
-  <!-- {else} -->
-  <a href="http://wpa.qq.com/msgrd?v=3&uin={$qq}&site=qq&menu=yes" target="_blank">{$lang.online_qq}</a>
-  <!-- {/if} -->
-  <!-- {/foreach} -->
-  </ul>
-  <ul class="service">
-   <li>{$lang.contact_tel}<br />{$site.tel}</li>
-   <li><a href="{$url.guestbook}">{$lang.guestbook_add}</a></li>
-  </ul>
+ <div class="onlineBtn"><a class="show" rel="nofollow" style="display:none" title="查看在线客服" href="javascript:void(0);">展开</a><a class="hide" rel="nofollow" title="关闭在线客服" href="javascript:void(0);" style="display:block">收缩</a></div>
+ <div class="onlineBox" style="display: block;">
+  <div class="head"></div>
+  <dl class="box">
+   <dt></dt>
+   <dd>
+        <!-- {foreach from=$site.qq item=qq} -->
+        <!-- {if is_array($qq)} -->
+        <a href="http://wpa.qq.com/msgrd?v=3&uin={$qq.number}&site=qq&menu=yes" target="_blank"><i></i><em>QQ交谈</em></a>
+        <!-- {else} -->
+        <a href="http://wpa.qq.com/msgrd?v=3&uin={$qq}&site=qq&menu=yes" target="_blank"><i></i><em>QQ交谈</em></a>
+        <!-- {/if} -->
+        <!-- {/foreach} -->
+        <a target="_blank" href="http://www.xinchengkuaiji.com/contact.html"><i class="tel"></i><em>{$site.tel}</em></a>
+   </dd>
+  </dl>
+  <div class="foot"></div>
  </div>
- <p class="goTop"><a href="javascript:;" onfocus="this.blur();" class="goBtn"></a></p>
 </div>
 <!-- {/if} -->

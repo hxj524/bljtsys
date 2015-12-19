@@ -186,55 +186,30 @@ function AddFavorite(url, title) {
  * 在线客服
  +----------------------------------------------------------
  */
-$(document).ready(function(e) {
-    // 右侧滚动
-    $("#onlineService").css("right", "0px");
+$(function() {
+    $(".show").click(function() {
 
-    // 弹出窗口
-    var button_toggle = true;
-    $(".onlineIcon").live("mouseover",
-    function() {
-        button_toggle = false;
-        $("#pop").show();
-    }).live("mouseout",
-    function() {
-        button_toggle = true;
-        hideRightTip()
-    });
-    $("#pop").live("mouseover",
-    function() {
-        button_toggle = false;
-        $(this).show()
-    }).live("mouseout",
-    function() {
-        button_toggle = true;
-        hideRightTip()
-    });
-    function hideRightTip() {
-        setTimeout(function() {
-            if (button_toggle) $("#pop").hide()
+        $('.onlineBox').animate({
+            width: 'show',
+            opacity: 'show'
         },
-        500)
-    }
-
-    // 返回顶部
-    $(".goTop").live("click",
-    function() {
-        var _this = $(this);
-        $('html,body').animate({
-            scrollTop: 0
-        },
-        500,
+        'normal',
         function() {
-            _this.hide()
+            $('.onlineBox').show();
         })
-    });
-    $(window).scroll(function() {
-        var htmlTop = $(document).scrollTop();
-        if (htmlTop > 0) {
-            $(".goTop").show()
-        } else {
-            $(".goTop").hide()
-        }
+								$('.show').attr('style', 'display:none');
+        $('.hide').attr('style', 'display:block');
+    })
+				$(".hide").click(function() {
+
+        $('.onlineBox').animate({
+            width: 'hide', opacity: 'hide'
+        },
+        'normal',
+        function() {
+            $('.onlineBox').hide();
+        })
+								$('.show').attr('style', 'display:block');
+        $('.hide').attr('style', 'display:none');
     })
 });

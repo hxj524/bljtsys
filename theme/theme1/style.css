@@ -1693,68 +1693,88 @@ color:transparent!important
 ----------------------------------------------- */
 #onlineService {
  position: fixed;
+ top: 210px;
+ right: 1px;
  _position: absolute;
- _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight)-380+"px");
- top: 208px;
- right: 0;
- z-index: 999999;
- display: block;
+ z-index: 9999;
 }
-#onlineService .onlineIcon {
+#onlineService .onlineBtn {
  position: relative;
- cursor: pointer;
- background: url(images/online_service.png) no-repeat;
- width: 34px;
- height: 110px;
+ width: 28px;
+ float: left;
+}
+#onlineService .onlineBtn a {
+ display: block;
+ position: relative;
+ width: 28px;
+ height: 118px;
+ top: 98px;
+ left: 1px;
  text-indent: -9999px;
  overflow:hidden;
 }
-#onlineService #pop {
- border: 3px solid #19B4EA;
- background-color: #F2F2F2;
- padding: 8px;
- width: 95px;
- min-height: 84px;
- position: absolute;
- right: 34px;
- top: 0;
- display: none;
- z-index: 999999;
+#onlineService .onlineBtn .show {
+ background: url(images/online_service.png) no-repeat -30px top;
 }
-#onlineService .onlineQQ a {
- display: block;
- background: url(images/online_service.png) no-repeat left -160px;
- color: #19B4EA;
- width: 82px;
- height: 24px;
- line-height: 23px;
- padding-left: 27px;
- margin-bottom: 8px;
+#onlineService .onlineBtn .hide {
+ background: url(images/online_service.png) no-repeat left top;
 }
-#onlineService .onlineQQ a:hover {
- text-decoration: none;
- color: #19B4EA;
+#onlineService .onlineBox {
+ float: left;
+ width: 130px;
 }
-#onlineService .service {
- border-top: 1px solid #DDDDDD;
- padding-top: 8px;
- color: #666;
+#onlineService .onlineBox .head {
+ background: url(images/online_service.png) no-repeat -65px top;
+ height:12px;
 }
-#onlineService .service a {
- color: #666;
+#onlineService .onlineBox .foot {
+ background: url(images/online_service.png) no-repeat -65px -12px;
+ height:15px;
 }
-#onlineService .service li {
- background: url(images/online_service.png) no-repeat left -202px;
- padding-left: 8px;
+#onlineService .onlineBox .box {
+ width: 130px;
+ background: url(images/online_service.png) repeat-y -200px top;
+ min-height:280px;
+ _height:280px;
+ padding-top:5px;
 }
-#onlineService .goTop {
- display: none;
+#onlineService .onlineBox .box dt {
+ background: url(images/online_service.png) repeat-y -65px -29px;
+ width:86px;
+ height:101px;
+ margin:0 auto;
 }
-#onlineService .goTop .goBtn {
- background: #F2F2F2 url(images/online_service.png) no-repeat left -120px;
- width: 34px;
- height: 34px;
- display: block;
+#onlineService .onlineBox .box dd {
+ padding:5px 15px;
+}
+#onlineService .onlineBox .box dd a {
+ display:block;
+ zoom:1;
+ overflow:hidden;
+ color:#00a0e9;
+ font-weight:bold;
+ padding:8px 5px;
+ border-bottom: #e6e5e4 1px solid;
+}
+#onlineService .onlineBox .box dd a i {
+ float:left;
+ display:block;
+ background: url(images/online_service.png) no-repeat -160px -32px;
+ width:15px;
+ height:16px;
+}
+#onlineService .onlineBox .box dd a i.tel {
+ background-position: -160px -54px;
+ width:10px;
+}
+#onlineService .onlineBox .box dd a em {
+ float:left;
+ display:block;
+ width:70px;
+ padding-left:5px;
+}
+#onlineService .onlineBox .box dd.weixin img {
+ width:100%;
 }
 /* footer
 ----------------------------------------------- */
