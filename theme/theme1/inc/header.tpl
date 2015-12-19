@@ -33,13 +33,17 @@
   <ul class="logo">
    <a href="{$site.root_url}"><img src="../images/{$site.site_logo}" alt="{$site.site_name}" title="{$site.site_name}" /></a>
   </ul>
-  <ul class="searchBox">
+  <!-- hide searchBox -->
+  <!-- <ul class="searchBox">
    <form name="search" id="search" method="get" action="{$site.root_url}">
     <label for="keyword">{$lang.search_cue}</label>
     <input name="s" type="text" class="keyword" title="{$lang.search_product_cue}" autocomplete="off" maxlength="128" value="{if $keyword}{$keyword|escape}{else}{$lang.search_product}{/if}" onclick="formClick(this,'{$lang.search_product}')">
     <input type="submit" class="btnSearch" value="{$lang.btn_submit}">
    </form>
-  </ul>
+  </ul> -->
+  <div class="tel">
+    <img src="../images/tel.jpg" alt="联系我们"/>
+  </div>
  </div>
 </div>
 <div id="mainNav">

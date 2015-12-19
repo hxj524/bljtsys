@@ -123,6 +123,7 @@ label {
  border-bottom: 1px solid #D8D8D8;
  text-align: right;
  color: #CCC;
+ display: none;
 }
 #top a {
  height: 28px;
@@ -195,10 +196,15 @@ label {
 /* -- header -- */
 #header {
  min-height: 120px;
+ background-color: #FFFFFF;
 }
 #header .logo {
  padding: 14px 0;
  float: left;
+}
+#header .tel{
+    float: right;
+    margin: 16px 80px 0 0;
 }
 #header .searchBox {
  float: right;
@@ -1647,15 +1653,41 @@ color:transparent!important
 }
 /* link
 ----------------------------------------------- */
+#wrapper .wrap.link-wrap{
+    width: 100%;
+    background-color: #1a8cc3;
+    height: 216px;
+}
+.ygfc{
+    display: inline-block;
+    width: 620px;
+    height: 186px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.ygfc strong{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.ygfc  .content{
+    padding-top: 20px;
+}
 .link {
- margin-bottom: 10px;
+ display: inline-block;
+ width: 360px;
+ height: 186px;
+ vertical-align: top;
+ padding-top: 30px;
 }
 .link strong {
- color: #7A7F81;
+ color: #FFFFFF;
  font-weight: bold;
+ font-size: 20px;
 }
 .link a {
- color: #555;
+ color: #FFFFFF;
+ padding: 10px 10px 10px 0;
+ display: inline-block;
 }
 /* 在线客服
 ----------------------------------------------- */
