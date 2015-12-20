@@ -36,7 +36,7 @@
      <!-- {else} -->
      <dl class="btnAsk">
       <dt>{$lang.product_buy}：</dt>
-      <dd><!-- {foreach from=$site.qq name=qq item=qq} --><!-- {if $smarty.foreach.qq.first} --><a href="http://wpa.qq.com/msgrd?v=3&amp;uin={if is_array($qq)}{$qq.number}{else}{$qq}{/if}&amp;site=qq&amp;menu=yes" target="_blank"><img src="images/online_qq.jpg" /></a><!-- {/if} --><!-- {/foreach} --> <a href="mailto:{$site.email}"><img src="images/online_email.jpg" /></a></dd>
+      <dd><!-- {foreach from=$site.qq name=qq item=qq} --><!-- {if $smarty.foreach.qq.first} --><a href="http://wpa.qq.com/msgrd?v=3&amp;uin={if is_array($qq)}{$qq.number}{else}{$qq}{/if}&amp;site=qq&amp;menu=yes" target="_blank"><img src="images/online_qq.jpg" /></a><!-- {/if} --><!-- {/foreach} --> {*<a href="mailto:{$site.email}"><img src="images/online_email.jpg" /></a>*}</dd>
      </dl>
      <!-- {/if} -->
     </div>

@@ -3,7 +3,7 @@
         <div class="bx_wrap">
             <ul id="demo2">
                 <!-- {foreach from=$product_slider name=product_slider item=product} -->
-                <li class="img"><a href="{$product.url}"><img src="{$product.thumb}" width="126" height="126" /></a></li>
+                <li class="img"><a href="{$product.url}" title="{$product.name}"><img src="{$product.thumb}" width="126" height="126" /></a></li>
                 <!-- {/foreach} -->
             </ul>
         </div>
