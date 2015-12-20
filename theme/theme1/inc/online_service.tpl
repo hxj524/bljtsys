@@ -14,7 +14,7 @@
         <a href="http://wpa.qq.com/msgrd?v=3&uin={$qq}&site=qq&menu=yes" target="_blank"><i></i><em>QQ交谈</em></a>
         <!-- {/if} -->
         <!-- {/foreach} -->
-        <a target="_blank" href="http://www.xinchengkuaiji.com/contact.html"><i class="tel"></i><em>{$site.tel}</em></a>
+        <a target="_blank" href="/page.php?id=4"><i class="tel"></i><em>{$site.tel}</em></a>
    </dd>
   </dl>
   <div class="foot"></div>
