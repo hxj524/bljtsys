@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
+<file name="active.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="btn_addtocart.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="btn_search.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="global.js" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_add_minus.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_addcart.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_contact.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_exclamation.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_fork.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="icon_red.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="img_company.jpg" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="inactive.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="jquery.autoTextarea.js" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="jquery.min.js" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="logo.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="main_nav_left.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="main_nav_right.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="online_email.jpg" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="online_qq.jpg" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="online_service.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="screenshot.png" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="slide_loader.gif" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+<file name="slide_show.js" server="678995.ichengyun.net/public_html/" local="130948350600000000" remote="130948350600000000" />
+=======
 <file name="active.png" server="101.226.179.80//data/www/web/" local="130240475378125000" remote="130944026110000000" />
 <file name="btn_addtocart.png" server="101.226.179.80//data/www/web/" local="130791578940274133" remote="130944026110000000" />
 <file name="btn_search.gif" server="101.226.179.80//data/www/web/" local="130439178397888578" remote="130944026110000000" />
@@ -69,4 +94,5 @@
 <file name="screenshot.png" server="678995.ichengyun.net/public_html/" local="130833183961919487" remote="130944673800000000" />
 <file name="slide_loader.gif" server="678995.ichengyun.net/public_html/" local="130496933880890704" remote="130944673800000000" />
 <file name="slide_show.js" server="678995.ichengyun.net/public_html/" local="130620465686274762" remote="130944673800000000" />
+>>>>>>> 38970d40a1950c45cd80f07bb756419c2dd43a41
 </dwsync>
