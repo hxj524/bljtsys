@@ -53,6 +53,8 @@ $smarty->assign('link', get_link_list());
 $smarty->assign('index', $index);
 $smarty->assign('recommend_product', $dou->get_list('product', 'ALL', $_DISPLAY['home_product'], 'sort DESC'));
 $smarty->assign('recommend_article', $dou->get_list('article', 'ALL', $_DISPLAY['home_article'], 'sort DESC'));
+// 产品轮播-数据
+$smarty->assign('product_slider', $dou->get_list('product', 'ALL', 18, 'sort DESC'));
 
 $smarty->display('index.dwt');
 

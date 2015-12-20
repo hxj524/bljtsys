@@ -10,6 +10,7 @@
 <script type="text/javascript" src="images/jquery.min.js"></script>
 <script type="text/javascript" src="images/global.js"></script>
 <script type="text/javascript" src="images/slide_show.js"></script>
+<script type="text/javascript" src="images/bxCarousel.js"></script>
 </head>
 <body>
 <div id="wrapper"> {include file="inc/header.tpl"}
@@ -27,6 +28,7 @@
    {include file="inc/contact.tpl"} </div>
   <div class="clear"></div>
  </div>
+ {include file="inc/product_slider.tpl"}
  <!-- {if $open.link} -->
  {include file="inc/link.tpl"}
  <!-- {/if} -->

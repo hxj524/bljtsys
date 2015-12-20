@@ -1777,6 +1777,68 @@ color:transparent!important
 #onlineService .onlineBox .box dd.weixin img {
  width:100%;
 }
+/* -- caoter -- */
+
+#caoter {
+	background-color:#F4F4F4;
+	padding:10px 0;
+	line-height:25px;
+	color:#999999;
+}
+#caoter a {
+	color:#999999;
+}
+/* -- marquee_product -- */
+.demo {	width: 980px;
+	height: 200px;
+	clear: both;
+	margin:0px auto;
+	position: relative;
+}
+.bx_wrap {
+	margin-left: 18px;
+	margin-top:10px
+}
+.bx_wrap ul img {
+	border: 3px solid #FFF;
+	margin-bottom:5px;
+	box-shadow:0 0 1em #bab9b9;
+}
+.bx_wrap ul li {margin-left: 10px;
+	text-align:center
+}
+.bx_wrap ul li a:hover {
+	text-decoration:none;
+	color:#f30
+}
+.bx_wrap a.prev {
+	width:32px;
+	height:32px;
+	line-height:32px;
+	outline-style:none;
+	outline-width: 0;
+	position:absolute;
+	top:50px;
+	left:-2px;
+	text-indent:-999em;
+	background: url(images/prev1.png) no-repeat;
+}
+.bx_wrap a.next {
+	width:32px;
+	height:32px;
+	line-height:32px;
+	left:948px;
+	position: absolute;
+	top:50px;
+	text-indent:-999em;
+	background:url(images/prev2.png) no-repeat;
+	margin:0px auto;
+}
+
+.ProductBG{
+	height:auto;
+	background:url(images/pro_bg.gif) repeat-x left top;
+	} 
 /* footer
 ----------------------------------------------- */
 #footer {
